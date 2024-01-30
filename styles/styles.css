@@ -1,0 +1,38 @@
+
+#content {
+    max-width: 1000px;
+    background-color: lightblue;
+}
+.nav_link {
+    padding: 10px;
+    color:black;
+    font-size: 1.3em;
+}
+nav {
+    display: flex;
+    justify-content:center; 
+}
+img {
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+}
+a {
+    color: black;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(166, 33, 33);
+}
+p, h3{
+    text-align: center;
+}
+#main_title{
+    font-size:2.5em;
+    text-align:center;
+}
+#subtitle {
+    color: gold;
+}
