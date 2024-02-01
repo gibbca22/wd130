@@ -1,9 +1,6 @@
 body{
     background-color: lightblue;
 }
-#content {
-    max-width: 4000px;
-}
 #header, footer{
     background-color: gray;
 }
