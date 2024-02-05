@@ -30,8 +30,22 @@ nav a:hover {
     text-align:center;
 }
 
+main section{
+    text-align:center;
+}
+nav a{
+    text-align:center;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align:center;
+}
+.button-box{
+    text-align:center;
+}
+
 #background {
     height: 725px;
+    background-color: tan;
 }
 
 .msg {
