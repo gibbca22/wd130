@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dosis&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Sriracha&display=swap');
 body{
     background-color: lightblue;
 }
@@ -33,7 +33,7 @@ nav a:hover {
     background-color: gray;
 }
 h1{
-    font-family: 'Bungee Spice';
+    font-family: 'Bungee Spice','Handlee';
 }
 p, h3{
     text-align: center;
