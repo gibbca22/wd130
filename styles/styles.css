@@ -38,6 +38,10 @@ h1{
 p, h3{
     text-align: center;
 }
+p {
+    width: 60%;
+    margin: 0 auto;
+}
 #main_title{
     font-size:2.5em;
     text-align:center;
