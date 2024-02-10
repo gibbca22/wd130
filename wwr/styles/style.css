@@ -1,6 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Rock+Salt&family=Sriracha&display=swap');
+.home-title {
+    font-family: Handlee, 'Rock Salt';
+    font-size: 2em;
+}
 body {
-    background-color: lightblue;
+    background-color: white;
 }
 
 #content {
