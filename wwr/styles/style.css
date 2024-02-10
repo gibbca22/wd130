@@ -39,6 +39,12 @@ nav a:hover {
     width: 60px;
     padding-top: 10px
 }
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 #hero-img {
     width: 100%;
     text-align:center;
@@ -88,6 +94,7 @@ nav a{
     color: #000000;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
