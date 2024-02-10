@@ -6,8 +6,13 @@
 }
 body {
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
-
+h2 {
+    margin: 0
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -21,6 +26,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px
 }
 
 nav a:hover {
@@ -30,6 +36,7 @@ nav a:hover {
 
 .icon {
     width: 60px;
+    padding-top: 10px
 }
 #hero-img {
     width: 100%;
@@ -58,6 +65,8 @@ nav a{
     text-align:center;
     background-color: tan;
     color: #333333;
+    line-height: 1.5em;
+    padding: 35px
 }
 
 .msg h2 {
@@ -66,12 +75,15 @@ nav a{
 
 .msg p {
     text-align:center;
+    font-size: .8em;
+    padding-bottom: 15px
 }
 
 .book, .join {
     text-align:center;
     background-color: #4CAF50;
     color: #000000;
+    padding: 15px 30px;
 }
 
 .book:hover, .join:hover {
@@ -83,6 +95,7 @@ footer {
     text-align:center;
     background-color: tan;
     color: blue;
+    padding: 25px 50px;
 }
 
 footer p {
@@ -92,4 +105,7 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
