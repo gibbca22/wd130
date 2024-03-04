@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Rock+Salt&family=Sriracha&display=swap');
+footer {
+    text-align:center;
+    background-color: tan;
+    color: blue;
+    padding: 25px 50px;
+    margin-top: 200px;}

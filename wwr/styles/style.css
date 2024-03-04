@@ -21,6 +21,17 @@ h2 {
 
 header {
     background-color: rgba(119, 120, 118, 0.405);
+    display: grid;
+    grid-template-columns: 100px auto;
+
+}
+#logo_link img {
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 nav a {
