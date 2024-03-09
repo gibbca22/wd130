@@ -132,3 +132,37 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+/*RIVERS PAGE CSS */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+#salmon {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.salmonpng {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#gray-canyon {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#grand-canyon {
+    grid-column: 1;
+    grid-row: 3;
+}
