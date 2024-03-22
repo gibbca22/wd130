@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+body {
+    background-color: darkgrey;
+}
+
 #header, footer{
     background-color: blue;
 }
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #396E94;
+
 }
 #destiny-img {
     padding:15px;
     align-items: center;
 }
-
+.game {
+    width: 70%;
+}
 #destiny-msg{
     text-align: center;
 }
@@ -23,28 +31,49 @@ header {
 nav a {
     text-decoration:none;
     text-align:center;
+    padding: 20px;
 }
 nav {
+    
     display: flex;
+    align-items: center;
     justify-content:space-around; 
 }
-.nav_link{
-    padding: 10px;
-    color: #396E94;
-    font-size: 1.3em;
-}
-nav a :hover{
-    background-color: #396E94;
-    color: white;
+
+nav a:hover{
+    color: black;
+    
 }
 a {
     color: white;
     background-color: #396E94;
 }
 img {
-    width: 40%;
+    width: 70%;
     display: block;
     margin: 0 auto;
+}
+header {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Comfortaa
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#rufus {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#fate {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+main h2{
+    text-align: center;
 }
 
 main p {
@@ -59,11 +88,9 @@ main p {
     box-sizing: border-box;
     border-radius: 10px;
 }
-
-
-
-
-
+main{
+    grid-template-columns: 1fr 1fr;
+}
 
 
 
