@@ -103,3 +103,99 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+
+/* Special ammo Page */
+.content2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-right: 40px;
+    justify-items: center;
+}
+#special-img {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.special {
+    width: 100%;
+    margin-right: 40px;
+}
+.special-ammo {
+    width: 50%;
+}
+#special-msg {
+    text-align: center;
+}
+
+#eremite-img {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#fusion {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#forbearance-img {
+    width: 100%;
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#grenade {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#eremite-msg p, #forbearance-msg p {
+    width: 80%;
+    margin: 50px;
+}
+#eremite-msgx, #forbearance-msg {
+    text-align: center;
+}
+ 
+/*Power page*/
+
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    margin-left: 75px;
+}
+.ammo-icon {
+    text-align: center;
+    width: 40%;
+    padding-top: 20px;
+}
+
+
+#heavy-msg {
+    text-align: center;
+}
+
+.linear {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.rocket {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    margin-left: 50px;
+}
+
+#predator-msg {
+    text-align: center;
+}
+
+
+
+
